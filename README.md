@@ -1,5 +1,5 @@
 # Soal 1: Membalik String dengan Angka di Akhir
-# Java:
+## Java:
 ```
 public class ReverseString {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class ReverseString {
     }
 }
 ```
-# PHP:
+## PHP:
 ```
 <?php
 function reverseAlphabet($input) {
@@ -36,7 +36,7 @@ echo reverseAlphabet($input);
 ?>
 ```
 # Soal 2: Mencari Kata Terpanjang dalam Kalimat
-# Java:
+## Java:
 ```
 public class LongestWord {
     public static void main(String[] args) {
@@ -59,8 +59,7 @@ public class LongestWord {
     }
 }
 ```
-
-# PHP:
+## PHP:
 ```
 <?php
 function findLongestWord($sentence) {
@@ -83,7 +82,7 @@ echo $longest . ": " . strlen($longest) . " character";
 ```
 
 # Soal 3: Menghitung Frekuensi Kata dalam Array
-# Java:
+## Java:
 ```
 import java.util.HashMap;
 
@@ -113,8 +112,7 @@ public class WordFrequency {
     }
 }
 ```
-
-# PHP:
+## PHP:
 ```
 <?php
 function countQueryFrequency($input, $query) {
@@ -136,7 +134,7 @@ print_r($result);
 ```
 
 # Soal 4: Menghitung Selisih Jumlah Diagonal dalam Matriks NxN
-# Java:
+## Java:
 ```
 public class DiagonalDifference {
     public static void main(String[] args) {
@@ -162,8 +160,7 @@ public class DiagonalDifference {
     }
 }
 ```
-
-# PHP:
+## PHP:
 ```
 <?php
 function diagonalDifference($matrix) {
